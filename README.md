@@ -26,23 +26,23 @@ This project analyzes real-time stress levels in workers using **facial expressi
     ```sh
     python end.py
 
-How It Works
-#Face Emotion Detection:
+## How It Works
+### Face Emotion Detection:
     -Uses OpenCV to capture real-time video.
     -DeepFace analyzes facial expressions.
-#Speech Emotion Recognition:
+### Speech Emotion Recognition:
     -Captures 3-second audio clips.
     -Extracts Mel Spectrogram features.
     -Passes them to a pre-trained CNN model.
-#Stress Analysis & Visualization:
+### Stress Analysis & Visualization:
     -Combines facial and audio emotions.
     -Displays stress level in a GUI.
     -Provides stress-relief suggestions.
-Usage
+## Usage
   -Press q to exit the face emotion detection window.
   -Ensure a working microphone for speech analysis.
   -The GUI updates in real-time based on detected emotions.
-Future Improvements
+## Future Improvements
   -Adding stress trend analysis over time.
   -Expanding dataset for improved accuracy.
   -Integrating with wearable sensors for physiological stress data.
